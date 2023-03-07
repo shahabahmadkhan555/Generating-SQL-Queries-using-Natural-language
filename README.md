@@ -1,5 +1,6 @@
-# Object-Tracking
-1. Built an object tracking model using YOLO, DeepSORT and Tensorflow.
-2. Used YOLO to perform object detection and then passed its output to DeepSORT to facilitate object tracking. 
-3. Used pre-trained weights of the model trained on [MS COCO dataset](https://cocodataset.org/#home).
-4. Tech stack used was Tensorflow, YOLO, DeepSORT, OpenCV, Numpy, Pandas, Python.
+## Generating-SQL-Queries-using-Natural-language
+1. Built a system that generates SQL queries when given simple conditional queries in english language.
+2. Used Doc2Vec which is a semi-supervised algorithm to generate feature vectors from sentences.
+3. Used Convolution Neural Network combined with Dense Neural Network to map input sentences to appropriate SQL queries.
+4. Model achieved a highest 5-fold cross-validation score of 0.93
+5. Tech stack used was Tensorflow, Doc2Vec library, Numpy, NLTK and Python.
